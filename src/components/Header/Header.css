@@ -1,0 +1,14 @@
+.body {
+  background-color: #0d253f;
+  color: white;
+  height: 65px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 40px;
+  width: 154px;
+  height: 20px;
+}
