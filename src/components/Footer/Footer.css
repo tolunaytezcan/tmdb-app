@@ -1,14 +1,19 @@
-.header {
+.footer {
   background-color: #0d253f;
   color: white;
-  height: 65px;
+  height: 130px;
+  width: 100%;
   font-weight: bold;
   display: flex;
+  justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  
 }
 
 .logo {
   margin-left: 40px;
-  width: 154px;
-  height: 20px;
+  width:130px;
+  height:94px;
 }
