@@ -1,14 +1,15 @@
-import React from 'react';
-import './App.css';
-import { Footer,Header } from './components';
-
+import React from "react";
+import { Footer, Header, Homepage } from "./components";
+import { requests } from "./constants";
+import "./App.css";
 
 function App() {
   return (
     <div>
-     <Header/>
-     <h2>Popüler Olanlar</h2>
-     <Footer/>
+      <Header />
+      <Homepage title="In Theaters" fetchUrl={requests.fetchTheater} />
+      <Homepage title="Action Movies" fetchUrl={requests.fetchActionMovies} />
+      <Footer />
     </div>
   );
 }
