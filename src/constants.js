@@ -11,6 +11,7 @@ export const requests = {
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
   fetchTheater: `discover/movie?api_key=${API_KEY}&primary_release_date.gte=2021-02-12&primary_release_date.lte=2021-03-12`,
   fetctList: `list/10?page=1&api_key=${API_KEY}`,
+  fetctListPage2: `list/10?page=2&api_key=${API_KEY}`,
 };
 
 export const baseImgUrl = "https://image.tmdb.org/t/p/original";

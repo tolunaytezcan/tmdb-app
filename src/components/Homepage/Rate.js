@@ -10,11 +10,11 @@ function Rate() {
   return (
     <div>
       <button onClick={Up} hidden={thumbsDown}>
-        Like
+        {thumbsUp && "Liked "}
         <FaThumbsUp />
       </button>
       <button onClick={Down} hidden={thumbsUp}>
-        Dislike
+        {thumbsDown && "Disliked "}
         <FaThumbsDown />
       </button>
     </div>
