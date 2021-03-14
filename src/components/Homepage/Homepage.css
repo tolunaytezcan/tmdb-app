@@ -2,11 +2,12 @@
   margin-left: 20px;
 }
 
-.row_poster {
+.image {
   object-fit: contain;
-  max-height: 100px;
   transition: transform 450ms;
   margin-right: 10px;
+  height: 150px;
+  border-radius: 10px;
 }
 
 .row_posters {
@@ -20,7 +21,7 @@
   display: none;
 }
 
-.row_poster:hover {
+.image:hover {
   transform: scale(1.08);
 }
 
@@ -30,4 +31,14 @@
 .release_date {
   margin: 0;
   color: gray;
+}
+
+.low {
+  border: 3px solid red;
+}
+.mid {
+  border: 3px solid yellow;
+}
+.high {
+  border: 3px solid greenyellow;
 }
