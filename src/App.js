@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Suspense fallback={<div>Loading...</div>}>
         <Homepage title="What's Popular" fetchUrl={requests.fetctList} />
-        <Homepage title="Free To Watch" fetchUrl={requests.fetchTheater} />
+        <Homepage title="Free To Watch" fetchUrl={requests.fetctListPage2} />
       </Suspense>
       <Footer />
     </div>

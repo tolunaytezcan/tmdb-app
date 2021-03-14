@@ -20,7 +20,9 @@ function Movie({ movies }) {
 
           <br />
           <strong className="movie_name">{movie.original_title}</strong>
-          <p className="release_date">{movie.release_date}</p>
+          <p className="release_date">
+            {movie.release_date.split("-").reverse().join("/")}
+          </p>
           <Rate />
         </div>
       ))}
