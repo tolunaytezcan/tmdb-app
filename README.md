@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# The Movie DB clone application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+
+[Demo link](https://tolunaytezcan.github.io/tmdb-app/)
+
+`(EN)`
+This application is a clone of the TMDB site.
+This React app contains React Hooks, React-Router, Axios.
+
+# Features
+
+- The data under the lists comes from the TMDB api.
+- The poster has a colored frame. The color of this frame changes according to the score of the movie.
+- There are buttons such as like and dislike on the poster. Clicking one of them, the other disappears.
+
+### Prerequisites
+
+To get started with this project, you need to get an api key from TMDB. Get it [here](https://www.themoviedb.org/settings/api).
+
+## Installation
+
+Get a copy of the project by clicking Clone or Download button.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `yarn install`
+
+`API_KEY: KEY_YOU_GOT_FROM_TMDB`. You can also modify your api configuration parameters in `src/constants`.
+
+Start your application.
+
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+For api options and methods details:
+[Documentation](https://developers.themoviedb.org/3/getting-started/introduction)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Author
 
-### `yarn test`
+- **Tolunay Tezcan**
+  - [Github](https://github.com/tolunaytezcan)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# The Movie DB klon uygulaması
 
-### `yarn build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Demo link](https://tolunaytezcan.github.io/tmdb-app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`(TR)`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bu uygulama, TMDB sitesinin bir kopyasıdır.
+Bu React uygulaması, React Hooks, React-Router, Axios'u içerir.
 
-### `yarn eject`
+# Özellikler
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Listelerin altındaki veriler TMDB api'den gelir.
+- Posterin renklendirilmiş bir çerçevesi vardır. Bu çerçevenin rengi filmin puanına göre değişmektedir.
+- Posterin üzerinde beğen ve beğenme gibi butonlar vardır. Birine tıklandığında diğeri kaybolmaktadır.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Önkoşullar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Bu projeye başlamak için TMDB'den bir api anahtarı almanız gerekir. [Buradan] edinin (https://www.themoviedb.org/settings/api).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Kurulum
 
-## Learn More
+Klonla veya İndir düğmesini tıklayarak projenin bir kopyasını edinin.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Kullanılabilir Komut Dosyaları
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Proje dizininde şunları çalıştırabilirsiniz:
 
-### Code Splitting
+### `yarn install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`API_KEY: KEY_YOU_GOT_FROM_TMDB`. Ayrıca api yapılandırma parametrelerinizi `src / constants` içinde de değiştirebilirsiniz.
 
-### Analyzing the Bundle Size
+Uygulamanızı başlatın.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `yarn start`
 
-### Making a Progressive Web App
+## Yazar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ** Tolunay Tezcan **
+  - [Github] (https://github.com/tolunaytezcan)

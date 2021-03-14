@@ -29,7 +29,7 @@ function Homepage({ title, fetchUrl }) {
           <div className="navWrapper">
             <Router>
               <NavLink
-                to="/"
+                to="/tmdb-app/"
                 exact={true}
                 onClick={() => {
                   setUrl(requests.fetctList);
@@ -76,7 +76,7 @@ function Homepage({ title, fetchUrl }) {
           <div className="navWrapper">
             <Router>
               <NavLink
-                to="/"
+                to="tmdb-app"
                 exact={true}
                 onClick={() => {
                   setUrl(requests.fetctList);
