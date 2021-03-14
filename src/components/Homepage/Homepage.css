@@ -2,11 +2,14 @@
   margin-left: 20px;
 }
 
+.display {
+  display: flex;
+}
 .image {
   object-fit: contain;
   transition: transform 450ms;
   margin-right: 10px;
-  height: 100px;
+  height: 250px;
   border-radius: 10px;
 }
 
@@ -34,30 +37,33 @@
 }
 
 .low {
-  border: 3px solid red;
+  border: 5px solid red;
 }
 .mid {
-  border: 3px solid yellow;
+  border: 5px solid yellow;
 }
 .high {
-  border: 3px solid greenyellow;
+  border: 5px solid greenyellow;
 }
 
 .navWrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
   width: fit-content;
-  border: 2px solid #0d253f;
+  margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Link {
   background-color: white;
   color: #0d253f;
   text-decoration: none;
-  padding: 10px;
+  font-weight: 600;
+  padding: 5px;
 }
 .activeLink {
   font-weight: bold;
   color: #90cea1;
   background-color: #0d253f;
+  border-radius: 1.2em;
 }
