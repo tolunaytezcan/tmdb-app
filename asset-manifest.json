@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tmdb-app/static/css/main.680f25bb.chunk.css",
-    "main.js": "/tmdb-app/static/js/main.8ca0703c.chunk.js",
-    "main.js.map": "/tmdb-app/static/js/main.8ca0703c.chunk.js.map",
+    "main.js": "/tmdb-app/static/js/main.8c8fb23b.chunk.js",
+    "main.js.map": "/tmdb-app/static/js/main.8c8fb23b.chunk.js.map",
     "runtime-main.js": "/tmdb-app/static/js/runtime-main.f2d1451f.js",
     "runtime-main.js.map": "/tmdb-app/static/js/runtime-main.f2d1451f.js.map",
     "static/js/2.fc1af7dc.chunk.js": "/tmdb-app/static/js/2.fc1af7dc.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f2d1451f.js",
     "static/js/2.fc1af7dc.chunk.js",
     "static/css/main.680f25bb.chunk.css",
-    "static/js/main.8ca0703c.chunk.js"
+    "static/js/main.8c8fb23b.chunk.js"
   ]
 }
