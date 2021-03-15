@@ -73,7 +73,7 @@ Proje dizininde şunları çalıştırabilirsiniz:
 
 ### `yarn install`
 
-`API_KEY: KEY_YOU_GOT_FROM_TMDB`. Ayrıca api yapılandırma parametrelerinizi `src / constants` içinde de değiştirebilirsiniz.
+`API_KEY: TMDB_SITESINDEN_ALDIGINIZ_KEY`. Ayrıca api yapılandırma parametrelerinizi `src / constants` içinde de değiştirebilirsiniz.
 
 Uygulamanızı başlatın.
 
@@ -81,5 +81,7 @@ Uygulamanızı başlatın.
 
 ## Yazar
 
-- ** Tolunay Tezcan **
-  - [Github] (https://github.com/tolunaytezcan)
+## Author
+
+- **Tolunay Tezcan**
+  - [Github](https://github.com/tolunaytezcan)
